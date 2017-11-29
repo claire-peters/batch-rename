@@ -1,1 +1,3 @@
-# batch-rename
+# This is a python script that allows for the batch renaming of .xml files based on information contained in the files. 
+# This script works under the assumption that the .xmls used have similar formatting - it works well for legal forms of the same type, for example. You'll need to install BeautifulSoup for this to work.
+# I downloaded a host of .xmls which had no descriptive names - just random numbers. I wanted to rename them according to the contents of the files so I had an idea of who submitted the form and when it was submitted. The files were all in the same folder (or in subfolders in the folder). This script uses BeautifulSoup to analyze the contents of the .xmls, form a new file name based on specified strings in the .xml, and replaces the old name with that new name.
