@@ -1,7 +1,7 @@
 import os,glob,sys,lxml.etree
 from bs4 import BeautifulSoup as bs
 
-fstart = "/home/geistling/Documents/Aarons_Law/Lobbying_Disclosures"
+fstart = FOLDERPATHHERE
 
 folders = [x[0] for x in os.walk(fstart)]
 
